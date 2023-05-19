@@ -7,7 +7,7 @@ A gardening information site for the Virgin Islands.
 
 The purpose of my website is to make a record of what I've learned about backyard gardening in the Virgin Islands. It's a topic that I could organize and have fun with as I create my project. Here are the wireframes for how I want it to look. 
 
-![wireframe of homepage](https://user-images.githubusercontent.com/132660279/239478892-10606ca4-cd8f-43dd-9c7f-c169176e687c.png)
+![wireframe of homepage](wireframes/homepage.png)
 
 Header will include the name of the website and image and my name. I will put the menu horizontally on the bottom of the wireframe.
 
@@ -17,7 +17,7 @@ The main content will include a welcome video and current local agricultural new
 
 The footer will include the copyright info and contac for the page
 
-![wireframe of about page](https://user-images.githubusercontent.com/132660279/239480195-860c969f-a361-4f7c-80ef-9963bc9201e1.png)
+![wireframe of about page](wireframes/about.png)
 
 Header will have the name of the page and an image. The search bar will be under the header. 
 
@@ -27,7 +27,7 @@ the body will have three panes for a descriptioin of characteristics of backyard
 
 The footer will have contact information in the form of an email form. 
 
-![wireframe of seasons page](https://user-images.githubusercontent.com/132660279/239481469-fd11a314-e9e3-44f2-89b4-658b4bfefaaa.png)
+![wireframe of seasons page](wireframes/seasons.png)
 
 The header will have the name of the page and an image. The search bar will be under the header. The navigation bar will be under the search bar. 
 
@@ -35,7 +35,7 @@ the body will have types of seasons in the Virgin Islands. The body will include
 
 the footer will have copyright information and contact information 
 
-![wireframe of essentials page](https://user-images.githubusercontent.com/132660279/239482490-0547b057-74aa-47a7-a9ba-5e3e8768c915.png)
+![wireframe of essentials page](wireframes/essentials.png)
 
 The header will have the name of the page an an image. The search bar will be under the header. The navigation bar will be under the search bar.
 
