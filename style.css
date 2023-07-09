@@ -1,0 +1,76 @@
+body {
+background-color: rgb(178, 238, 171);
+font-style: Arial;
+color:rgba(27, 20, 20, 0.589);
+font-size: 24px;
+font-weight: normal;
+
+}
+
+title {border: rgb(69, 91, 14); padding-top: 0; padding-bottom:0 ;}
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+/*style the image */
+img {
+    max-width: 50;
+}
+
+*{ box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+Body {
+    margin:0
+}
+/*style the header */
+header {
+    background-color: rgb(118, 193, 240);
+padding: 20px; 
+text-align: center;
+}
+
+/*style the top navigation bar*/
+.topnav a {
+    float: left; 
+    display:block;
+    color:gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/*style the topnav links */
+.topnav a {
+    float:left;
+    display: block;
+    color:azure;
+    text-align:center;
+    padding: 14px 16 px;
+    text-decoration: none;
+}
+
+/* change the color on hover */
+.topnav {
+    align-self: hover;
+color: lime;
+}
+
+.container {
+    column-count: 3;
+    column-width: 20px;
+    column-width: 4px dotted rgb (79. 185. 227);
+}
+
+{}
+/*style the footer */
+footer {
+    background-color: rgb(118, 193, 240);
+padding: 20px; 
+text-align: center;
+}
