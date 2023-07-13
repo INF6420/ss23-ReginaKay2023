@@ -1,44 +1,84 @@
 body {
-background-color: rgb(178, 238, 171);
-font-style: Arial;
-color:rgba(27, 20, 20, 0.589);
-font-size: 24px;
-font-weight: normal;
+    background-color: rgb(178, 238, 171);
+    font-style: Arial;
+    color: rgba(27, 20, 20, 0.589);
+    font-size: 24px;
+    font-weight: normal;
 
 }
 
-title {border: rgb(69, 91, 14); padding-top: 0; padding-bottom:0 ;}
+title {
+    border: rgb(69, 91, 14);
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 header {
     background-color: aquamarine;
     text-align: center;
     padding: 20px;
 }
+
 /*style the image */
 img {
-    max-width: 50;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-*{ box-sizing: border-box;
+.main-image {
+    height: 350px;
+    width: 250;
+}
+
+
+
+
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.intro-text {
+    max-width: 500px;
+}
+
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 Body {
-    margin:0
+    margin: 0
 }
+
 /*style the header */
 header {
     background-color: rgb(118, 193, 240);
-padding: 20px; 
-text-align: center;
+    padding: 20px;
+    text-align: center;
 }
 
 /*style the top navigation bar*/
 .topnav a {
-    float: left; 
-    display:block;
-    color:gray;
+    float: left;
+    display: block;
+    color: gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,30 +87,54 @@ text-align: center;
 
 /*style the topnav links */
 .topnav a {
-    float:left;
+    float: left;
     display: block;
-    color:azure;
-    text-align:center;
+    color: azure;
+    text-align: center;
     padding: 14px 16 px;
     text-decoration: none;
 }
 
 /* change the color on hover */
-.topnav {
-    align-self: hover;
-color: lime;
+.top a:hover {
+    color: rgb(111, 19, 88);
 }
 
-.container {
-    column-count: 3;
-    column-width: 20px;
-    column-width: 4px dotted rgb (79. 185. 227);
+.active {
+    background-color: rgb(212, 255, 0);
 }
 
-{}
+.main-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.bordered {
+    background-color: antiquewhite;
+    border: 5px solid coral
+}
+
+.information {
+    float:left;
+    height:250x;
+    width:250px;
+    
+}
+
+.essential {
+width:50px;
+}
+
+
+.closing {
+    max-height: fit-content;
+    min-width: none;
+}
+
 /*style the footer */
 footer {
     background-color: rgb(118, 193, 240);
-padding: 20px; 
-text-align: center;
+    padding: 20px;
+    text-align: center;
 }
