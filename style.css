@@ -25,9 +25,15 @@ img {
     max-height: 100%;
 }
 
+
 .main-image {
     height: 350px;
-    width: 250;
+    width: 250px;
+
+    @media (max-width: 625px) {
+        width: 50%;
+        height: auto;
+    }
 }
 
 
@@ -108,6 +114,10 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+
+    @media (max-width: 625px) {
+        flex-wrap: wrap;
+    }
 }
 
 .bordered {
@@ -116,10 +126,13 @@ header {
 }
 
 .information {
-    float:left;
     height:250x;
     width:250px;
     
+    @media (max-width: 625px) {
+        width: auto;
+        height: auto;
+    }
 }
 
 .essential {
@@ -142,6 +155,10 @@ footer {
 
 main {
   width: 80%;
+
+  @media (max-width: 625px) {
+    width: 100%;
+  }
 }
 
 form {
